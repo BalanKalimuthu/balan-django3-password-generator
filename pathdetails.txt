@@ -1,0 +1,18 @@
+
+Root folder where manage.py available:
+/Users/admin/Desktop/DjangoLearning/balproject/password_generator_project
+python3 manage.py runserver
+
+Templates are available in this folder.
+
+/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/django/contrib/auth/templates
+
+When you add a new App, create a folder and move required files here.
+Example:
+/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/django/contrib/auth/templates/generator/home.html
+
+Project Folder in ATOM ( for generator app )
+/Users/admin/Desktop/DjangoLearning/balproject/password_generator_project/generator/templates/generator
+
+#Once changes are done in ATOM editor, copy the file into Libraray path to enable django to pick up the file for processing.
+cp -av home.html /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/django/contrib/auth/templates/generator
